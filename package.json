@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ConstantineZarzhytskyy/gennady-brain#readme",
   "dependencies": {
+    "async": "2.5.0",
     "brain.js": "1.0.0-rc.3",
     "lodash": "4.17.4",
     "morgan": "1.8.2",
