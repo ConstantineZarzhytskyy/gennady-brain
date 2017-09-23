@@ -1,0 +1,27 @@
+{
+  "name": "gennady-brain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd app & npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConstantineZarzhytskyy/gennady-brain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConstantineZarzhytskyy/gennady-brain/issues"
+  },
+  "homepage": "https://github.com/ConstantineZarzhytskyy/gennady-brain#readme",
+  "dependencies": {
+    "brain.js": "1.0.0-rc.3",
+    "lodash": "4.17.4",
+    "morgan": "1.8.2",
+    "seneca": "3.4.2",
+    "seneca-entity": "2.0.2",
+    "seneca-mongo-store": "1.1.0"
+  }
+}
