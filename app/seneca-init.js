@@ -11,7 +11,7 @@ seneca
     .use('../lib/db');
 
 seneca.ready(function() {
-  console.log('Seneca connect to database [' + options['mongo-store'].name + ']');
+  console.log('Seneca connect to database [' + options['mongo-store'].name + '] - [' + options['mongo-store'].uri + ']');
 });
 
 module.exports = seneca;

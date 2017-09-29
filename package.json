@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd app & npm i"
+    "postinstall": "cd app & npm i",
+    "start": "node app/index.js"
   },
   "repository": {
     "type": "git",
