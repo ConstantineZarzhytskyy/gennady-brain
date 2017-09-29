@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 6.11.3
+test:
+  override:
+    - echo "test"
+deployment:
+  staging:
+    branch: develop
+    heroku:
+      appname: gennady-brain
